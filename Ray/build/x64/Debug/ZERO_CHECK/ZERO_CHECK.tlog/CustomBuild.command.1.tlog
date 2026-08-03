@@ -1,0 +1,10 @@
+^C:\USERS\MATTH\ONEDRIVE\DESKTOP\RAYTRACE\PRACTICE\RAY\BUILD\CMAKEFILES\58AFFF6AFA121D38352FFC24D729EBD2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/matth/OneDrive/Desktop/RayTrace/Practice/Ray -BC:/Users/matth/OneDrive/Desktop/RayTrace/Practice/Ray/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/matth/OneDrive/Desktop/RayTrace/Practice/Ray/build/Ray.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

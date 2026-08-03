@@ -1,0 +1,3 @@
+C:/Users/matth/OneDrive/Desktop/RayTrace/Practice/Ray/build/CMakeFiles/Ray.dir
+C:/Users/matth/OneDrive/Desktop/RayTrace/Practice/Ray/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/matth/OneDrive/Desktop/RayTrace/Practice/Ray/build/CMakeFiles/ZERO_CHECK.dir
